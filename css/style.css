@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER SECTION */
+.site_header {
+  background-color: #edf3f8;
+  background-image: url(../images/HERO_BG.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 500px) calc(50% - 200px);
+}
+
+.logo {
+  margin-right: 64px;
+}
+.header_wrapper {
+  display: flex;
+  padding-top: 40px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.header_start {
+  display: flex;
+}
+.nav_list {
+  display: flex;
+  align-items: center;
+  width: 232px;
+  column-gap: 40px;
+}
+.nav_list_item_link {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+.header_btn {
+  width: 173px;
+  height: 48px;
+  border: 0;
+  background: #ba4270;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.115385px;
+  color: #fbfcfe;
+}
+.hero_title {
+  width: 546px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: -0.553846px;
+  color: #36536b;
+  margin-bottom: 21px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero_form {
+  position: relative;
+  margin-bottom: 16px;
+}
+.hero_input {
+  width: 445px;
+  display: block;
+  background: #fbfcfe;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+  border: 0;
+  padding-top: 16px;
+  padding-bottom: 14px;
+  padding-left: 27px;
+}
+.hero_input::placeholder {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.hero_btn {
+  position: absolute;
+  bottom: 2px;
+  left: 300px;
+  width: 173px;
+  height: 48px;
+  color: #fff;
+  border: 0;
+  background: #ba4270;
+  border-radius: 24px;
+}
+.hero_question {
+  font-size: 15px;
+  line-height: 18px;
+  color: #6c8294;
+  margin-left: 15px;
+}
+.hero_contact {
+  font-weight: 700;
+}
+@media only screen and (max-width: 990px) {
+  .hero_iphone {
+    display: none;
+  }
+  .hero_article {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero_title {
+    width: 800px;
+  }
+  .hero_form {
+    display: flex;
+    justify-content: center;
+  }
+  .hero_btn {
+    left: 450px;
+  }
+  .hero_question {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 838px) {
+  .hero_title {
+    width: 500px;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+  }
+  .hero_btn {
+    left: 300px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .header_btn {
+    display: none;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .hero_title {
+    width: 450px;
+    font-size: 35px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  .hero_input {
+    width: 300px;
+  }
+  .hero_btn {
+    width: 120px;
+    font-size: 13px;
+    padding: 5px;
+    left: 280px;
+  }
+  .hero_form {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .nav {
+    display: none;
+  }
+
+  .hero_title {
+    width: 300px;
+    font-size: 30px;
+  }
+  .hero_form {
+    justify-content: center;
+  }
+  .hero_input {
+    margin-bottom: 50px;
+  }
+  .hero_btn {
+    top: 65px;
+    left: 90px;
+  }
+}
+
+/* PARTNERS SECTION */
+
+
+.partners{
+    background-color: #1b262f;
+    padding-top: 100px;
+}
+.partners_wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.partners_logo{
+    width: 536px;
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    row-gap: 0;
+    align-items: center;
+}
+.partners_title {
+  width: 445px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #fbfcfe;
+  margin-bottom: 24px;
+}
+.partners_desc {
+  width: 445px;
+  font-size: 15px;
+  line-height: 28px;
+  color: #fbfcfe;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+  margin-bottom: 32px;
+}
+.partners_btn{
+   display: inline-block;
+   padding: 16px 32px 14px 32px;
+   border: 1px solid #fff;
+   color: #fff;
+   border-radius: 24px;
+}
