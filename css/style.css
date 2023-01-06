@@ -264,6 +264,9 @@ li {
 .big {
   padding-top: 150px;
   background-color: #edf3f8;
+  background-image: url(../images/HERO_BG.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 700px);
 }
 .implement_wrapper {
   display: flex;
