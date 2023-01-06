@@ -114,10 +114,10 @@ li {
 }
 .hero_btn {
   position: absolute;
-  bottom: 2px;
+  top: 0;
   left: 300px;
   width: 173px;
-  height: 48px;
+  height: 55px;
   color: #fff;
   border: 0;
   background: #ba4270;
@@ -214,23 +214,22 @@ li {
 
 /* PARTNERS SECTION */
 
-
-.partners{
-    background-color: #1b262f;
-    padding-top: 100px;
+.partners {
+  background-color: #1b262f;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-.partners_wrapper{
-    display: flex;
-    justify-content: space-between;
-    
+.partners_wrapper {
+  display: flex;
+  justify-content: space-between;
 }
-.partners_logo{
-    width: 536px;
-    display: flex;
-    gap: 60px;
-    flex-wrap: wrap;
-    row-gap: 0;
-    align-items: center;
+.partners_logo {
+  width: 536px;
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+  row-gap: 0;
+  align-items: center;
 }
 .partners_title {
   width: 445px;
@@ -252,10 +251,139 @@ li {
   opacity: 0.7;
   margin-bottom: 32px;
 }
-.partners_btn{
-   display: inline-block;
-   padding: 16px 32px 14px 32px;
-   border: 1px solid #fff;
-   color: #fff;
-   border-radius: 24px;
+.partners_btn {
+  display: inline-block;
+  padding: 16px 32px 14px 32px;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 24px;
+}
+
+/* BIG SECTION */
+
+.big {
+  padding-top: 150px;
+  background-color: #edf3f8;
+}
+.implement_wrapper {
+  display: flex;
+  align-items: center;
+}
+.imlement_title {
+  width: 445px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #36536b;
+  margin-bottom: 24px;
+}
+.implement_desc {
+  width: 445px;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6c8294;
+}
+.simple_ui_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+/* CARD SECTION */
+
+.cards_wrapper {
+  display: flex;
+  gap: 75px;
+  margin-bottom: 96px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+}
+
+.card_title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 16px;
+  letter-spacing: -0.138462px;
+  color: #36536b;
+}
+.card_desc {
+  width: 350px;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: -0.115385px;
+  color: #6c8294;
+}
+.card_title::before {
+  display: block;
+  content: url(../images/first_card.png);
+  margin-left: 25px;
+}
+
+/* READY SECTION */
+
+.ready_wrapper {
+  display: flex;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 96px;
+}
+.ready_title {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.369231px;
+  color: #36536b;
+}
+
+/* FOOTER SECTION */
+
+.site_footer {
+  background-color: #1b262f;
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+.footer_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_start {
+  display: flex;
+  align-items: center;
+}
+.footer_logo {
+  margin-right: 64px;
+}
+
+.footer_list {
+  display: flex;
+  align-items: center;
+  width: 232px;
+  column-gap: 40px;
+}
+.footer_list_item_link {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #fbfcfe;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+.footer_logo_list{
+    display: flex;
+    column-gap: 24px;
 }
